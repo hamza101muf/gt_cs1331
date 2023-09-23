@@ -1,0 +1,8 @@
+Bad1 - the error occurs at compile time.
+The class header name does not match the filename.
+
+Bad2 - the error occurs at runtime.
+There is a math error, as it tries to divide by zero.
+
+Bad3 - the error occurs at runtime.
+The datatype, String, for the variable 'letter' does not match the char it was assigned.
