@@ -1,5 +1,13 @@
-
+/**
+ * This class is the driver class for the Frog and Fly classes.
+ * @author Hamza Mufti
+ * @version 1.0
+ */
 public class Pond {
+    /**
+     * This is the main method for the Pond class.
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Frog frog = new Frog("Peepo");
         Frog frog1 = new Frog("Pepe", 10, 15);
@@ -10,7 +18,7 @@ public class Pond {
         Fly fly1 = new Fly(6);
         Fly fly2 = new Fly(34, 5);
 
-        frog1.setName("1331 Frogs");
+        Frog.setSpecies("1331 Frogs");
         System.out.println(frog.toString());
         frog.eat(fly1);
         System.out.println(fly1.toString());
